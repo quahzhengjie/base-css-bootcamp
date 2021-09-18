@@ -1,3 +1,28 @@
-body{
-  background-color:pink;
+body {
+  background-color: white;
+}
+.container {
+  display: flex;
+}
+.col {
+  border: 1px solid grey;
+}
+.flex1 {
+  flex-grow: 40;
+  flex-shrink: 1;
+  flex-basis: auto;
+}
+.flex2 {
+  flex-grow: 0;
+  flex-shrink: 2;
+  flex-basis: auto;
+}
+.flex3 {
+  display: flex;
+  justify-content: center;
+  max-width: 100px;
+}
+.container-footer {
+  justify-content: center;
+  background-color: rgb(133, 93, 160);
 }
