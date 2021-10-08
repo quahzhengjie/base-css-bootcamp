@@ -25,4 +25,36 @@ body {
 .container-footer {
   justify-content: center;
   background-color: rgb(133, 93, 160);
+  background-color: pink;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: pink;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sidebar {
+  padding: 20px;
+  background-color: white;
+  flex-shrink: 0;
+  flex-grow: 1;
+  flex-basis: auto;
+}
+
+.column {
+  padding: 20px;
+  background-color: yellow;
+}
+
+@media (min-width: 600px) {
+  .flex-container {
+    flex-wrap: nowrap;
+  }
 }
